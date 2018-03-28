@@ -197,96 +197,96 @@
             recording: "Robby",
             playbackStart: 0500,
             recordingFile: "atp:" + "/recordings/MIPTV18-Robby-Eng.hfr",
-            playbackPosition: newPosition1,
-            playbackOrientation: newOrientationFixed1,
+            playbackPosition: null,
+            playbackOrientation: null,
             playing: false
         },
         {
             recording: "ParkingPot",
             playbackStart: 7100,
             recordingFile: "atp:" + "/recordings/MIPTV18-ParkingPot-Eng.hfr",
-            playbackPosition: newPosition2,
-            playbackOrientation: newOrientationFixed2,
+            playbackPosition: null,
+            playbackOrientation: null,
             playing: false
         },
         {
             recording: "EggSmell",
             playbackStart: 27600,
             recordingFile: "atp:" + "/recordings/MIPTV18-EggSmell-Eng.hfr",
-            playbackPosition: newPosition3,
-            playbackOrientation: newOrientationFixed3,
+            playbackPosition: null,
+            playbackOrientation: null,
             playing: false
         },
         {
             recording: "LadyJug",
             playbackStart: 53500,
             recordingFile: "atp:" + "/recordings/MIPTV18-LadyJug-Eng.hfr",
-            playbackPosition: newPosition4,
-            playbackOrientation: newOrientationFixed4,
+            playbackPosition: null,
+            playbackOrientation: null,
             playing: false
         },
         {
             recording: "CavePan",
             playbackStart: 75800,
             recordingFile: "atp:" + "/recordings/MIPTV18-CavePan-Eng.hfr",
-            playbackPosition: newPosition4,
-            playbackOrientation: newOrientationFixed4,
+            playbackPosition: null,
+            playbackOrientation: null,
             playing: false
         },
         {
             recording: "NoseBook",
             playbackStart: 101000,
             recordingFile: "atp:" + "/recordings/MIPTV18-NoseBook-Eng.hfr",
-            playbackPosition: newPosition4,
-            playbackOrientation: newOrientationFixed4,
+            playbackPosition: null,
+            playbackOrientation: null,
             playing: false
         },
         {
             recording: "Robby",
             playbackStart: 0500,
             recordingFile: "atp:" + "/recordings/MIPTV18-Robby-Eng.hfr",
-            playbackPosition: newPosition1,
-            playbackOrientation: newOrientationFixed1,
+            playbackPosition: null,
+            playbackOrientation: null,
             playing: false
         },
         {
             recording: "ParkingPot",
             playbackStart: 7100,
             recordingFile: "atp:" + "/recordings/MIPTV18-ParkingPot-Eng.hfr",
-            playbackPosition: newPosition2,
-            playbackOrientation: newOrientationFixed2,
+            playbackPosition: null,
+            playbackOrientation: null,
             playing: false
         },
         {
             recording: "EggSmell",
             playbackStart: 27600,
             recordingFile: "atp:" + "/recordings/MIPTV18-EggSmell-Eng.hfr",
-            playbackPosition: newPosition3,
-            playbackOrientation: newOrientationFixed3,
+            playbackPosition: null,
+            playbackOrientation: null,
             playing: false
         },
         {
             recording: "LadyJug",
             playbackStart: 53500,
             recordingFile: "atp:" + "/recordings/MIPTV18-LadyJug-Eng.hfr",
-            playbackPosition: newPosition4,
-            playbackOrientation: newOrientationFixed4,
+            playbackPosition: null,
+            playbackOrientation: null,
             playing: false
         },
         {
             recording: "CavePan",
             playbackStart: 75800,
             recordingFile: "atp:" + "/recordings/MIPTV18-CavePan-Eng.hfr",
-            playbackPosition: newPosition4,
-            playbackOrientation: newOrientationFixed4,
+            playbackPosition: null,
+            playbackOrientation: null,
             playing: false
         },
         {
             recording: "NoseBook",
             playbackStart: 101000,
             recordingFile: "atp:" + "/recordings/MIPTV18-NoseBook-Eng.hfr",
-            playbackPosition: newPosition4,
-            playbackOrientation: newOrientationFixed4,
+            playbackPosition: null,
+            playbackOrientation: null,
             playing: false
         }
     )
