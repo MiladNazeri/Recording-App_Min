@@ -326,6 +326,9 @@
                     Script.update.connect(updateHandler);
                     break;
                 case "Stop":
+                    dateNow = null;
+                    dateNowMinusScriptStart = null;
+                    varianceCheckResult = null;
                     Player.stopPlayingAllRecordings();
                     Script.update.disconnect(updateHandler);
                     break;
