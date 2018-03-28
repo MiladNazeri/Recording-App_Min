@@ -240,7 +240,7 @@
             playbackPosition: newPosition4,
             playbackOrientation: newOrientationFixed4,
             playing: false
-        })
+        },
         {
             recording: "Robby",
             playbackStart: 0500,
@@ -289,6 +289,7 @@
             playbackOrientation: newOrientationFixed4,
             playing: false
         }
+    )
 
     
     function varianceCheck(number){
