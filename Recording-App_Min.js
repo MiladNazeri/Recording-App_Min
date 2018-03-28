@@ -14,6 +14,7 @@
 (function () {
     
     var Player,
+        APP_NAME = "Recording-App_Min",
         updateHandler,
         scriptStart = null,
         playBackObjectArray = [],
@@ -154,7 +155,6 @@
                 playerIsPlayings[index] = message.playing;
                 playerRecordings[index] = message.recording;
                 playerTimestamps[index] = Date.now();
-                Dialog.updatePlayerDetails(playerIsPlayings, playerRecordings, playerIDs);
             }
         }
 
@@ -163,7 +163,6 @@
             playerIsPlayings = [];
             playerRecordings = [];
             playerTimestamps = [];
-            Dialog.updatePlayerDetails(playerIsPlayings, playerRecordings, playerIDs);
         }
 
         function setUp() {
@@ -316,8 +315,6 @@
             recObjRef.playing = true;
         }
     };
-
-    Script.update.connect(updateHandler);
 
     Messages.subscribe(MESSAGES_CHANNEL);
 
