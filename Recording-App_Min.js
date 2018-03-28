@@ -329,6 +329,7 @@
                     dateNow = null;
                     dateNowMinusScriptStart = null;
                     varianceCheckResult = null;
+                    scriptStart = null;
                     Player.stopPlayingAllRecordings();
                     Script.update.disconnect(updateHandler);
                     break;
