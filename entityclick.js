@@ -11,7 +11,7 @@
             message = userData.message;
         },
         clickDownOnEntity: function () { 
-            Messages.sendMessage("Messages_Control_Channel", JSON.stringify({type: message}));
+            Messages.sendMessage("Messages_Control_Channel", JSON.stringify({type: message.type}));
         },
         unload: function(entityID) {
             
