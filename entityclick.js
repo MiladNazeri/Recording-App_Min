@@ -1,16 +1,17 @@
-(function () { 
-    var Play = function(){
+(function () {
+    var message;
 
+    var Play = function(){
+        
     };
 
     Play.prototype = {
+        preload: function(entityID) {
+            var userData = JSON.parse(Entities.getEntityProperties(entityID, 'userData').userData);
+            message = userData.message;
+        },
         clickDownOnEntity: function () { 
-            this.a = !this.a; 
-            if (this.a) {
-                Messages.sendMessage("Messages_Control_Channel", JSON.stringify({type: "Start"}));
-            } else {
-                Messages.sendMessage("Messages_Control_Channel", JSON.stringify({type: "Stop"}));
-            }
+            Messages.sendMessage("Messages_Control_Channel", JSON.stringify({type: message}));
         },
         unload: function(entityID) {
             
